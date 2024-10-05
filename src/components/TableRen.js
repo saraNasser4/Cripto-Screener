@@ -29,15 +29,15 @@ function Table () {
             })}
           </tr>
         </thead>
-        <tbody className='text-center text-base [&>*]:hover:bg-gray-200 [&>*]:border-b [&>*]:border-gray-100'>
-            <tr>
+        <tbody className='text-center text-base [&>*]:border-b [&>*]:border-gray-100'>
+            <tr className='hover:bg-gray-200'>
                 {ScreenSize.map((data, index)=> {
-                return (<td className='p-1' key={index}>{data}</td>)
+                  return (<td className='p-4' key={index}>{data}</td>)
                 })}
             </tr>
-            <tr>
+            <tr className='hover:bg-gray-200'>
                 {ScreenSize.map((data, index)=> {
-                return (<td className='p-1' key={index}>{data}</td>)
+                return (<td className='p-4' key={index}>{data}</td>)
                 })}
             </tr>
         </tbody>

@@ -7,7 +7,7 @@ export default function Home() {
     
   return (
     <main className='w-full h-full flex flex-col items-center relative text-white font-nunito'>
-      <div className='bg-gray-300 w-screen h-screen fixed -z-10'>
+      <div className='bg-gray-300 w-screen h-screen fixed'>
         <Logo />
         <Navigation />
       </div>

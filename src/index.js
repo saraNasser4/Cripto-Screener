@@ -14,15 +14,15 @@ const router = createBrowserRouter([
     element: <Home />,
     children: [
       {
-        path: "/",
-        element: <Crypto />
+        path: "",
+        element: <Crypto />,
       },
       {
-        path: "/trending",
+        path: "trending",
         element: <Trending />
       },
       {
-        path: "/saved",
+        path: "saved",
         element: <Saved />
       },
     ]
