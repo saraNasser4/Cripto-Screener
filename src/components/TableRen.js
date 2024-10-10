@@ -24,7 +24,7 @@ function TableRen () {
 
   
 
-  const ScreenSize = width <= 580 ? tableData.mobileScreen : width <= 640 ? tableData.smScreen : width <= 1030 ? tableData.mdScreen : tableData.lgScreen;
+  const ScreenSize = width <= 580 ? tableData.mobileScreen : width <= 750 ? tableData.smScreen : width <= 1080 ? tableData.mdScreen : tableData.lgScreen;
   const option = {minimumFractionDigits: 2, maximumFractionDigits: 2};
 
   return (
